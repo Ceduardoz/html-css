@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{background-color: black;}
+main{background-color: gray;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    width: 565px;
+    box-shadow: 3px 2px 2px white;}
+div{background-color: gray;
+   padding: 10px;
+   margin: auto;
+   border-radius: 5px;
+   width: 250px;
+   box-shadow: 3px 2px 2px white;
+   text-align: center;}

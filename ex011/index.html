@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="Octopus.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <hr>
+    <p>Tente abrir este site em vários disposítivos diferentes ou apenas diminua a o tamanho do navegation
+        <hr>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem flexível">
+           
+        </picture>
+    </p>
+    <h1>Vamos aprender a reproduzir audio</h1>
+    <audio preload="metadata" controls loop> 
+        <source src="midia/venka.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não consegue reproduzir áudio</p> <a href=""></a>
+    </audio>
+    <h1>aprendendo a reproduzir videos</h1>
+    <p>sendo reproduzido localmente, ou seja, hospedado no meu servidor</p>
+    <video controls loop width="500" >
+        <source src="midia/pexels-ali-alcántara-19329325 (540p).mp4" type="video/mp4">
+    </video>
+    <h2>video hospedado do youtube</h2>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=Y-sApkODWng2nY2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

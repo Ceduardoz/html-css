@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+h1{background-color: brown;
+   color: cornflowerblue;
+   border-radius: 10px;
+   text-align: center;
+   border-radius: 10px;
+   }
+
+   div:hover{color: red;}
+
+   div > p {display: none;}
+
+   div:hover > p{display: block;
+        color: cornflowerblue;
+        background-color: brown;
+        }
+    div{text-align: center;}
+    p{text-align: center;}
